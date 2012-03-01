@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/5/trunk/test/org/bbelovic/weather
+END
+GoogleWeatherReaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/test/org/bbelovic/weather/GoogleWeatherReaderTest.java
+END
+WeatherModelTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/test/org/bbelovic/weather/WeatherModelTest.java
+END
+WindDirectionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/test/org/bbelovic/weather/WindDirectionTest.java
+END
+YahooWeatherReaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/test/org/bbelovic/weather/YahooWeatherReaderTest.java
+END
+WUndergroundWeatherReaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/test/org/bbelovic/weather/WUndergroundWeatherReaderTest.java
+END
+UtilitiesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/test/org/bbelovic/weather/UtilitiesTest.java
+END
+TestNGSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/test/org/bbelovic/weather/TestNGSuite.java
+END
