@@ -9,7 +9,14 @@ public class GoogleWeatherReader extends AbstractWeatherReader
 {
 	
 	private static final String WEATHER_URL = "http://www.google.com/ig/api?weather=";		
-	private static final String[]  XPATHS = {"//humidity[@data]", "//temp_c[@data]", "//condition[@data]", "//wind_condition[@data]"};
+
+
+    private static final String[]  XPATHS = {
+            "//humidity[@data]",
+            "//temp_f[@data]",
+            "//condition[@data]",
+            "//wind_condition[@data]"
+    };
 	private static final String DATA_ATTRIBUTE_NAME = "data";
 	private static final String FORECAST_XPATH = "//forecast_conditions";
 		
@@ -58,7 +65,7 @@ public class GoogleWeatherReader extends AbstractWeatherReader
 			String condition = children.item(4).getAttributes().getNamedItem(DATA_ATTRIBUTE_NAME).getNodeValue();
 			WeatherModel forecast = new WeatherModel();
 			forecast.setCondition(condition);
-			forecast.setTemperature(Utilities.fahrenheitToCelsius(low) + " - "+ Utilities.fahrenheitToCelsius(high));			
+			forecast.setTemperature(low + " - "+ high);
 			wm.addForecastModel(forecast);
 		}
 	}
